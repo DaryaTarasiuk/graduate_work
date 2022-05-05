@@ -1,0 +1,60 @@
+.artist-li {
+  padding: 20px 40px 20px 0px;
+}
+
+.image-crop {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  align-items: flex-start;
+}
+
+.artist-photo {
+  display: inline;
+  margin: 0 auto;
+  // margin-left: -25%;
+  width: auto;
+}
+
+.artist-photo:hover {
+  opacity: 0.5;
+}
+
+.artistId {
+  font-size: 15px;
+  color: #777;
+}
+
+.artistId:hover {
+  color: #fff;
+  transition: 0.5s;
+}
+
+.artist-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 600px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: 50% 25%;
+  background-size: cover;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+.artist-heading {
+  height: 300px;
+  align-items: flex-end;
+  margin-bottom: 40px;
+}
+
+.artist-h1 {
+  font-size: 48px;
+  line-height: 48px;
+}

@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: #1a1a1a;
+  background: linear-gradient(215deg, #171d26 15%, #000 85%) no-repeat 50% fixed;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #fff;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  color: #fff;
+}
+
+.hover-line:hover {
+  text-decoration: underline;
+}
+
+a.lightgray-white {
+  color: darkgray;
+}
+
+a.lightgray-white:hover {
+  color: #fff;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #888;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+h5 {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: capitalize;
+  font-size: 14px;
+}
+
+h6 {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+main {
+  width: 100%;
+  margin-left: 250px;
+  padding: 25px 40px;
+  margin-bottom: 100px;
+  position: relative;
+}
+
+header {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 95%;
+}
+
+footer {
+  background-color: #000;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  z-index: 10;
+  overflow: hidden;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subtitle {
+  margin-top: 40px;
+}
+
+.section-title {
+  margin-bottom: 20px;
+}
+
+.flex-row-center {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-row-start {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.flex-row-end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.flex-row-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-col-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flex-col-start {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+hover-white:hover {
+  color: #fff;
+  transition: 0.5s;
+}
+
+::placeholder {
+  color: #555;
+}
+:-ms-input-placeholder {
+  color: #555;
+}
+::-ms-input-placeholder {
+  color: #555;
+}
+
+.white-btn {
+  background-color: #fff;
+  color: #000;
+  padding: 15px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.white-btn:hover {
+  background-color: #ddd;
+  transition: 0.5s;
+}
+
+.cyan-btn {
+  background-color: cyan;
+  color: #333;
+}
+
+.cyan-btn:hover {
+  background-color: darkcyan;
+  transition: 0.5s;
+}
+
+.white-text-link {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 0px 15px;
+}
+
+.white-text-link:hover {
+  color: cyan;
+  text-decoration: none;
+}
+
+.vertical-padding {
+  padding: 40px 0px;
+}
+
+.vertical-text-separation {
+  padding: 5px 0;
+}
+
+.vertical-center {
+  align-items: center;
+}
+
+.vertical-top {
+  align-items: flex-start;
+}
+
+.horizontal-padding {
+  padding: 0px 10px;
+}
+
+.white {
+  color: #fff;
+}
+
+.silver {
+  color: #ccc;
+}
+
+.lightgray {
+  color: #aaa;
+}
+
+.midgray {
+  color: #777;
+}
+
+.darkgray {
+  color: #333;
+}
+
+.salmon {
+  color: salmon;
+}
+
+.cyan {
+  color: cyan;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.w-150 {
+  width: 150px;
+}
+
+.margin-top {
+  margin-top: 5px;
+}
+
+.black-bg {
+  background-color: black;
+  height: 100%;
+  min-height: 100vh;
+}
+
+.z1 {
+  z-index: 1;
+}
+
+.heart-btn-lg {
+  font-size: 28px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.break {
+  height: 40px;
+}
+
+.main-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 600px;
+  width: 100%;
+  background-image: linear-gradient(transparent, #000 75%),
+    image-url('splash_spidergwen.jpg');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  z-index: 1;
+}
+
+.main-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  height: 400px;
+  text-shadow: 4px 4px 10px #000;
+}
+
+.w-150 {
+  max-width: 150px;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.refresh-btn {
+  font-size: 16px;
+  margin: 10px 0;
+  font-weight: bold;
+  text-shadow: 4px 4px 10px #000;
+  color: #ccc;
+}
+
+a.hover-white .player-artist:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
+.padding-lt-5 {
+  padding-left: 5px;
+}

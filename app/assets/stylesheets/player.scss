@@ -1,0 +1,131 @@
+.player-wrapper {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  z-index: 10;
+  background-color: #1c2026;
+  box-shadow: 0px -2px 20px #000;
+}
+
+.player-side {
+  width: 25%;
+  padding: 10px 20px;
+}
+
+.player-left {
+  font-size: 13px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.player-cover {
+  padding-right: 10px;
+}
+
+.player-cover img {
+  width: 70px;
+  height: 70px;
+}
+
+.player-title {
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.player-artist {
+  color: #ccc;
+}
+
+.player-playlist {
+  font-size: 9px;
+  text-transform: uppercase;
+  color: #999;
+}
+
+.player-time {
+  font-size: 14px;
+  color: #ccc;
+  padding: 0px 10px 0px 15px;
+}
+
+.player-btn {
+  border: none;
+  width: 28px;
+  padding: 5px 0px;
+  text-align: center;
+  border-radius: 4px;
+  background-color: transparent;
+  color: white;
+  font-size: 20px;
+}
+
+.player-btn:hover {
+  color: #777;
+  transition: 0.4s;
+}
+
+.inline-play-btn {
+  color: #777;
+}
+
+.inline-play-btn:hover {
+  color: cyan;
+  transition: 0.5s;
+}
+
+.lg-play-btn {
+  width: 150px;
+  height: 50px;
+  background-color: #fff;
+  color: #000;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.lg-play-btn:hover {
+  background-color: #ccc;
+  color: #333;
+  transition: 0.5s;
+}
+
+.lg-button-text {
+  font-size: 18px;
+  padding-left: 5px;
+}
+
+.lg-shuffle-btn {
+  width: 150px;
+  height: 50px;
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.lg-shuffle-btn:hover {
+  background-color: #333;
+  color: #aaa;
+  transition: 0.5s;
+}
+
+.mute-btn {
+  font-size: 16px;
+}
+
+.hover-cyan:hover {
+  color: cyan;
+  transition: 0.5s;
+}
+
+.inline-play {
+  font-size: 14px;
+  padding-left: 5px;
+  vertical-align: bottom;
+}

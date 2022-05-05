@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta property="og:title" content="Musplay" />
+    <meta property='og:image' content="<%= image_url('ripple.gif') %>"/>
+    <meta property="og:description"
+      content="
+        Musplay emulates popular music streaming services like Tidal/Spotify
+        but with a library that showcases artists' first mixtapes and albums.
+        Users can stream songs, create playlists, and like their favorite artists, albums, & songs.
+      "
+    />
+
+    <title>MusPlay</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all' %>
+    <%= javascript_include_tag 'application' %>
+    <link rel="shortcut icon" type="image/x-icon" href="<%= image_url('favicon.ico')%>">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" />
+    <% if logged_in? %>
+      <script id="bootstrap-current-user" type="text/javascript">
+        window.currentUser = <%= render("api/users/user.json.jbuilder",
+          user: current_user).html_safe %>
+      </script>
+    <% end %>
+  </head>
+
+  <body>
+    <%= yield %>
+  </body>
+</html>
